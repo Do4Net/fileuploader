@@ -29,6 +29,8 @@ class UploadFileHanler{
 				that.handler();
 			});
 		})(this);
+
+		
 		 
 	}
 
