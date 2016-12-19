@@ -23,7 +23,7 @@ class UploadFileHanler{
 		if(item==null||this.instance==undefined){
 			console.log(`can not find ${btn} item in this page!`);
 		}
-
+		//注意闭包
 		(function(that){
 			item.on("click",function(){
 				that.handler();
