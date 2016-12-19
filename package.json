@@ -4,7 +4,8 @@
   "description": "Sample setup with Gulp, Babel, Mocha and Webpack",
   "main": "src/uploadfile/index.js",
   "scripts": { 
-    "build": "gulp" 
+    "build": "gulp" ,
+    "server": "gulp server" 
   },
   "repository": {
     "type": "git",
