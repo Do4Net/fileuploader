@@ -1,4 +1,5 @@
 # fileuploader
+<br/>
 fileuploader 原生Ajax 无需插件、语义化标签可配置选择【文件大小、类型配置】、上传进度提示、事件触发机制、ES6<br/> <br/>
 eg.
 <br/>
