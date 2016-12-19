@@ -8,6 +8,7 @@ class UploadFileHanler{
 		if(this.instance==null||this.instance==undefined){
 			console.log("can not find uploadfile control in this page!");
 		}
+		
 		this.hasControl=true;
 		var data=this.instance.data();
 		this.file=new File(this.instance.val(),data.uploadMax,data.uploadUrl,null,data.showProcess,data.showBefore,data.showEnd,$); 
